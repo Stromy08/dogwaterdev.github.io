@@ -16,6 +16,11 @@ body
 
 }
   
+p {
+    color: antiquewhite;
+    padding-left: 8%;
+    font-family: Rockwell;
+}
 
 h1 
 {
@@ -26,26 +31,15 @@ h1
 
 }
 
-
-#intro {
-    border-left: none;
-}
-.navelement 
-{
-    position: relative;
-    border-left: 2px solid salmon;
-    padding-left: 11.5%;
-    padding-right: 10%;
-
+h2 {
+    color: antiquewhite;
+    text-align: center;
+    font-family: Rockwell;
+    font-size: 200%;
 }
 
-.navbar 
-{
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
-    border: 1px solid salmon;
 
-}
+
 a 
 {
 
@@ -58,6 +52,15 @@ a:hover
 
     cursor: pointer;
 
+}
+
+.divider {
+    padding-top: 0.15%;
+    padding-bottom: 0.25%;
+    margin-left: 8%;
+    width:10%;
+    background-color: rgb(197, 186, 83);
+    border-radius: 10px;
 }
 
 
@@ -74,4 +77,30 @@ a:hover
 
     color: #2e942e;
 
+}
+
+
+.navelement 
+{
+    position: relative;
+    border-left: 2px solid salmon;
+    padding-left: 11.5%;
+    padding-right: 10%;
+
+}
+
+.navbar 
+{
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    border: 1px solid salmon;
+
+}
+
+
+
+
+
+#intro {
+    border-left: none;
 }
