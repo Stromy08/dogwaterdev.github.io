@@ -1,0 +1,77 @@
+@font-face {
+    font-family: Rockwell;
+    src: url(assets/font/ROCK.TTF);
+  }
+@font-face {
+    font-family: Rockwell;
+    font-weight: bold;
+    src: url(assets/font/Rockwell-Bold.ttf);
+}
+
+
+body 
+{
+
+    background-color:#060a07;
+
+}
+  
+
+h1 
+{
+    
+    color:antiquewhite;
+    text-align: center;
+    font-family: Rockwell;
+
+}
+
+
+#intro {
+    border-left: none;
+}
+.navelement 
+{
+    position: relative;
+    border-left: 2px solid salmon;
+    padding-left: 11.5%;
+    padding-right: 10%;
+
+}
+
+.navbar 
+{
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    border: 1px solid salmon;
+
+}
+a 
+{
+
+    color: antiquewhite;
+    font-family: Rockwell;
+
+}
+a:hover 
+{
+
+    cursor: pointer;
+
+}
+
+
+.title 
+{
+
+    text-decoration-line: underline;
+    font-size: 250%;
+
+}
+
+.active 
+{
+
+    color: #2e942e;
+
+}
