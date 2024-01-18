@@ -38,6 +38,19 @@ h2 {
     font-size: 200%;
 }
 
+li {
+    padding-left: 8%;
+    color:rgb(195, 131, 30);
+    font-size: 140%;
+    font-family: Rockwell;
+}
+
+ul {
+    padding-left: 8%;
+    color:rgb(195, 131, 30);
+    font-size: 100%;
+    font-family: Rockwell;
+}
 
 
 a 
@@ -97,6 +110,14 @@ a:hover
 
 }
 
+.lnk {
+    color:aqua;
+}
+
+
+.internal {
+    color: rgb(147, 115, 78);
+}
 
 
 
